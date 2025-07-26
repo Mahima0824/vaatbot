@@ -3,7 +3,9 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "motion/react";
 import React, { useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { FaChevronDown } from 'react-icons/fa';
 import SwapText from "./SwapText";
+import NavDropdown from './NavDropdown';
 
 export const Navbar = ({ children, className }) => {
   const ref = useRef(null);
@@ -57,12 +59,13 @@ export const NavBody = ({ children, className, visible }) => {
 
 export const NavItems = ({ items, className, onItemClick }) => {
   const [hovered, setHovered] = useState(null);
+  const [showDropdown, setShowDropdown] = useState(false);
   const location = useLocation();
   const pathname = location.pathname;
 
   // Get the current home variant from the path
   const getCurrentHomeVariant = () => {
-    const homeVariants = ['/', '/home', '/home2', '/home3', '/home4'];
+    const homeVariants = ['/', '/home2', '/home3', '/home4'];
     // Find the current home variant based on the current path
     const currentVariant = homeVariants.find(variant => {
       if (variant === '/') {
@@ -74,8 +77,15 @@ export const NavItems = ({ items, className, onItemClick }) => {
     return currentVariant || '/';
   };
 
+  const handleDropdownToggle = () => {
+    setShowDropdown(!showDropdown);
+  };
+
   return (
-    <motion.div onMouseLeave={() => setHovered(null)} className={cn("relative flex-1 flex flex-row items-center justify-center font-medium transition duration-200 lg:flex", className)}>
+    <motion.div onMouseLeave={() => {
+      setHovered(null);
+      setShowDropdown(false);
+    }} className={cn("relative flex-1 flex flex-row items-center justify-center font-medium transition duration-200 lg:flex", className)}>
       {items.map((item, idx) => {
         const isHome = item.name === "Home";
         const homeVariants = ['/', '/home2', '/home3', '/home4'];
@@ -90,9 +100,21 @@ export const NavItems = ({ items, className, onItemClick }) => {
 
         return (
           <div key={`link-${idx}`} className="relative px-4 py-2 mx-1 lg:mx-2" onMouseEnter={() => setHovered(idx)}>
-            <Link to={linkTo} className="relative z-10 block w-full h-full" onClick={onItemClick}>
-              <SwapText initialText={item.name} finalText={item.name} supportsHover={true} textClassName="relative z-20" disableClick={true} />
-            </Link>
+            {isHome ? (
+              <div className="relative z-10  w-full h-full flex items-center gap-1" onClick={handleDropdownToggle}>
+                <SwapText initialText={item.name} finalText={item.name} supportsHover={true} textClassName="relative z-20" disableClick={true} />
+                {isHome && (
+                  <FaChevronDown size={15} className="text-white/70 transition-transform duration-200" />
+                )}
+                {showDropdown && (
+                  <NavDropdown onClose={() => setShowDropdown(false)} />
+                )}
+              </div>
+            ) : (
+              <Link to={linkTo} className="relative z-10 block w-full h-full" onClick={onItemClick}>
+                <SwapText initialText={item.name} finalText={item.name} supportsHover={true} textClassName="relative z-20" disableClick={true} />
+              </Link>
+            )}
 
             {(hovered === idx || isActive) && (
               <motion.div layoutId="hovered" className="absolute inset-0 h-full w-full rounded-full bg-primary/80 z-0" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }} />
