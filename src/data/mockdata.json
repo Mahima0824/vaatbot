@@ -1,0 +1,518 @@
+{
+    "logos": [
+        {
+            "id": 1,
+            "src": "/images/logo/amazon-pay.png",
+            "alt": "Amazon Pay"
+        },
+        {
+            "id": 2,
+            "src": "/images/logo/google.png",
+            "alt": "Google"
+        },
+        {
+            "id": 3,
+            "src": "/images/logo/netflix.png",
+            "alt": "Netflix"
+        },
+        {
+            "id": 4,
+            "src": "/images/logo/intel.png",
+            "alt": "Intel"
+        },
+        {
+            "id": 5,
+            "src": "/images/logo/paypal.png",
+            "alt": "PayPal"
+        },
+        {
+            "id": 6,
+            "src": "/images/logo/yahoo.png",
+            "alt": "Yahoo"
+        },
+        {
+            "id": 7,
+            "src": "/images/logo/lenovo.png",
+            "alt": "Lenovo"
+        },
+        {
+            "id": 8,
+            "src": "/images/logo/canon.png",
+            "alt": "Canon"
+        },
+        {
+            "id": 9,
+            "src": "/images/logo/zoom.png",
+            "alt": "Zoom"
+        }
+    ],
+    "blogPosts": [
+        {
+            "id": 1,
+            "title": "The Future of AI in Everyday Life",
+            "excerpt": "Exploring how AI is transforming our daily routines and what to expect in the coming years.",
+            "date": "July 10, 2025",
+            "author": "Sarah Johnson",
+            "tags": [
+                "AI",
+                "Technology",
+                "Future"
+            ],
+            "image": "/images/blog1.jpg",
+            "readTime": "5 min read"
+        },
+        {
+            "id": 2,
+            "title": "Getting Started with Machine Learning",
+            "excerpt": "A beginner's guide to understanding and implementing basic machine learning concepts.",
+            "date": "June 28, 2025",
+            "author": "Michael Chen",
+            "tags": [
+                "Machine Learning",
+                "Tutorial",
+                "Beginners"
+            ],
+            "image": "/images/blog2.jpg",
+            "readTime": "7 min read"
+        },
+        {
+            "id": 3,
+            "title": "The Ethics of Artificial Intelligence",
+            "excerpt": "Examining the moral implications and responsibilities in AI development and deployment.",
+            "date": "June 15, 2025",
+            "author": "Emma Davis",
+            "tags": [
+                "Ethics",
+                "AI",
+                "Society"
+            ],
+            "image": "/images/blog3.jpg",
+            "readTime": "6 min read"
+        },
+        {
+            "id": 4,
+            "title": "Natural Language Processing Breakthroughs",
+            "excerpt": "Latest advancements in NLP and how they're changing human-computer interaction.",
+            "date": "June 5, 2025",
+            "author": "David Kim",
+            "tags": [
+                "NLP",
+                "AI",
+                "Technology"
+            ],
+            "image": "/images/blog4.jpg",
+            "readTime": "8 min read"
+        },
+        {
+            "id": 5,
+            "title": "The Rise of AI in Healthcare",
+            "excerpt": "How artificial intelligence is revolutionizing diagnosis and treatment in medicine.",
+            "date": "May 22, 2025",
+            "author": "Dr. Lisa Wong",
+            "tags": [
+                "Healthcare",
+                "AI",
+                "Medicine"
+            ],
+            "image": "/images/blog5.jpg",
+            "readTime": "7 min read"
+        },
+        {
+            "id": 6,
+            "title": "Building Your First Chatbot",
+            "excerpt": "A step-by-step guide to creating your own AI-powered chatbot from scratch.",
+            "date": "May 10, 2025",
+            "author": "Alex Rivera",
+            "tags": [
+                "Chatbot",
+                "Tutorial",
+                "AI"
+            ],
+            "image": "/images/blog6.jpg",
+            "readTime": "10 min read"
+        }
+    ],
+    "blogpagePosts": [
+        {
+            "title": "How AI Chatbots Are Changing Customer Support",
+            "date": "July 5, 2025",
+            "tag": "AI",
+            "image": "/images/blog1.jpg",
+            "excerpt": "Explore how businesses are using conversational AI to enhance customer experience and automate support..."
+        },
+        {
+            "title": "Top 5 NLP Models Behind Today’s Chatbots",
+            "date": "June 28, 2025",
+            "tag": "NLP",
+            "image": "/images/blog2.jpg",
+            "excerpt": "Natural Language Processing (NLP) powers chatbot intelligence. Here are the top 5 models used in modern systems..."
+        },
+        {
+            "title": "The Future of Voice AI in Customer Interaction",
+            "date": "June 10, 2025",
+            "tag": "Voice",
+            "image": "/images/blog3.jpg",
+            "excerpt": "Voice-enabled bots are the next frontier in seamless customer communication. Here’s what you need to know..."
+        },
+        {
+            "title": "10 UX Tips to Improve Chatbot Conversations",
+            "date": "May 30, 2025",
+            "tag": "UX",
+            "image": "/images/blog4.jpg",
+            "excerpt": "User experience can make or break your chatbot’s success. Learn top strategies to keep your users engaged."
+        },
+        {
+            "title": "AI in Healthcare Chatbots: Benefits & Risks",
+            "date": "May 14, 2025",
+            "tag": "AI",
+            "image": "/images/blog5.jpg",
+            "excerpt": "Healthcare is embracing AI assistants—but it’s not without ethical and technical challenges."
+        },
+        {
+            "title": "Fine-tuning LLMs for Your Custom Chatbot",
+            "date": "April 25, 2025",
+            "tag": "NLP",
+            "image": "/images/blog6.jpg",
+            "excerpt": "Learn how to fine-tune large language models (LLMs) for your own chatbot applications using modern toolchains."
+        }
+    ],
+    "pricingPlans": [
+        {
+            "name": "Starter",
+            "price": "Free",
+            "description": "Perfect for individuals getting started",
+            "features": [
+                "Up to 100 messages/month",
+                "Basic AI models",
+                "Email support",
+                "Community access"
+            ],
+            "popular": false,
+            "buttonText": "Get Started"
+        },
+        {
+            "name": "Pro",
+            "price": "$19",
+            "description": "For professionals and small teams",
+            "features": [
+                "Up to 1,000 messages/month",
+                "Advanced AI models",
+                "Priority support",
+                "API access",
+                "Custom integrations"
+            ],
+            "popular": true,
+            "buttonText": "Start Free Trial"
+        },
+        {
+            "name": "Enterprise",
+            "price": "Custom",
+            "description": "For large organizations",
+            "features": [
+                "Unlimited messages",
+                "Premium AI models",
+                "24/7 dedicated support",
+                "Custom AI training",
+                "SLA & Security review",
+                "Dedicated account manager"
+            ],
+            "popular": false,
+            "buttonText": "Contact Sales"
+        }
+    ],
+    "features": [
+        {
+            "title": "24/7 AI Assistance",
+            "description": "Round-the-clock support with instant responses to all your queries, anytime, anywhere.",
+            "icon": "FaRobot",
+            "className": "md:col-span-4 md:row-span-1"
+        },
+        {
+            "title": "Multi-language Support",
+            "description": "Break language barriers with our advanced AI-powered translation system that supports 50+ languages with native-level accuracy.",
+            "icon": "FaGlobe",
+            "className": "md:col-span-4 md:row-span-2",
+            "languages": [
+                {
+                    "name": "English",
+                    "code": "EN"
+                },
+                {
+                    "name": "हिंदी",
+                    "code": "HI"
+                },
+                {
+                    "name": "Español",
+                    "code": "ES"
+                },
+                {
+                    "name": "Français",
+                    "code": "FR"
+                },
+                {
+                    "name": "中文",
+                    "code": "ZH"
+                },
+                {
+                    "name": "العربية",
+                    "code": "AR"
+                },
+                {
+                    "name": "Português",
+                    "code": "PT"
+                },
+                {
+                    "name": "Русский",
+                    "code": "RU"
+                },
+                {
+                    "name": "日本語",
+                    "code": "JA"
+                },
+                {
+                    "name": "Deutsch",
+                    "code": "DE"
+                }
+            ],
+            "features": [
+                "Real-time translation with <100ms latency",
+                "Accent and dialect recognition",
+                "Cultural context awareness",
+                "Offline mode available",
+                "Document translation support",
+                "Voice input/output in all languages"
+            ]
+        },
+        {
+            "title": "Contextual Understanding",
+            "description": "Advanced AI that remembers conversation history and understands nuanced context.",
+            "icon": "FaBrain",
+            "className": "md:col-span-4 md:row-span-1"
+        },
+        {
+            "title": "Lightning Fast Responses",
+            "description": "Get instant answers with our high-performance AI engine that delivers in milliseconds.",
+            "icon": "BsLightningCharge",
+            "className": "md:col-span-4 md:row-span-1"
+        },
+        {
+            "title": "Smart Suggestions",
+            "description": "Proactive recommendations and intelligent responses based on conversation flow.",
+            "icon": "FaRegLightbulb",
+            "className": "md:col-span-4 md:row-span-1"
+        }
+    ],
+    "plans": [
+        {
+            "title": "Starter",
+            "priceMonthly": 12,
+            "priceYearly": 99,
+            "features": [
+                "1 Project",
+                "Basic Support",
+                "Community Access",
+                "Email Support",
+                "API Access"
+            ],
+            "color": "from-primary to-secondary"
+        },
+        {
+            "title": "Professional",
+            "priceMonthly": 29,
+            "priceYearly": 249,
+            "features": [
+                "10 Projects",
+                "Priority Support",
+                "Analytics Dashboard",
+                "API Access",
+                "Custom Integrations"
+            ],
+            "popular": true,
+            "color": "from-primary to-secondary"
+        },
+        {
+            "title": "Enterprise",
+            "priceMonthly": 59,
+            "priceYearly": 499,
+            "features": [
+                "Unlimited Projects",
+                "Dedicated Manager",
+                "24/7 Support",
+                "Custom Integrations",
+                "White-labeling"
+            ],
+            "color": "from-primary to-secondary"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept all major credit cards, PayPal, and bank transfers for yearly subscriptions."
+        },
+        {
+            "question": "Can I cancel anytime?",
+            "answer": "Yes, you can cancel your subscription anytime from your dashboard settings."
+        },
+        {
+            "question": "Do you offer discounts for teams?",
+            "answer": "Absolutely. We offer custom pricing for teams of 5 or more. Contact us for details."
+        },
+        {
+            "question": "Is there a free trial?",
+            "answer": "Yes! Every plan comes with a 7-day free trial. You can cancel before the trial ends to avoid charges."
+        }
+    ],
+    "navItems": [
+        {
+            "name": "Home",
+            "link": "/home"
+        },
+        {
+            "name": "Pricing",
+            "link": "/pricing"
+        },
+        {
+            "name": "Blog",
+            "link": "/blog"
+        }
+    ],
+    "planets": [
+        {
+            "name": "Venus",
+            "size": 10,
+            "color": "bg-amber-400",
+            "distance": 160,
+            "speed": 110
+        },
+        {
+            "name": "Earth",
+            "size": 12,
+            "color": "bg-blue-500",
+            "distance": 260,
+            "speed": 150
+        },
+        {
+            "name": "Mars",
+            "size": 14,
+            "color": "bg-red-500",
+            "distance": 360,
+            "speed": 200
+        }
+    ],
+    "steps": [
+        {
+            "id": 1,
+            "icon": "BsChatDots",
+            "title": "Start Chat",
+            "subtitle": "Begin by typing your question or request in natural language.",
+            "features": [
+                "Natural language understanding",
+                "Multi-format input",
+                "24/7 availability"
+            ],
+            "date": "Step 1",
+            "dotColor": "#8b5cf6",
+            "lineColor": "#7c3aed",
+            "gradient": "from-violet-500 to-fuchsia-500"
+        },
+        {
+            "id": 2,
+            "icon": "BsCpu",
+            "title": "AI Processing",
+            "subtitle": "Our AI analyzes your request using advanced algorithms.",
+            "features": [
+                "Context understanding",
+                "Real-time processing",
+                "Multi-language support"
+            ],
+            "date": "Step 2",
+            "dotColor": "#3b82f6",
+            "lineColor": "#2563eb",
+            "gradient": "from-blue-500 to-cyan-500"
+        },
+        {
+            "id": 3,
+            "icon": "BsLightningCharge",
+            "title": "Get Response",
+            "subtitle": "Receive accurate, helpful responses instantly.",
+            "features": [
+                "Instant answers",
+                "Helpful suggestions",
+                "Clear explanations"
+            ],
+            "date": "Step 3",
+            "dotColor": "#10b981",
+            "lineColor": "#059669",
+            "gradient": "from-emerald-500 to-teal-500"
+        }
+    ],
+    "testimonials": [
+        {
+            "quote": "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
+            "name": "Sarah Chen",
+            "designation": "Product Manager at TechFlow",
+            "src": "/images/user/testi-1.jpg"
+        },
+        {
+            "quote": "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
+            "name": "Michael Rodriguez",
+            "designation": "CTO at InnovateSphere",
+            "src": "/images/user/testi-2.jpg"
+        },
+        {
+            "quote": "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
+            "name": "Emily Watson",
+            "designation": "Operations Director at CloudScale",
+            "src": "/images/user/testi-3.jpg"
+        },
+        {
+            "quote": "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
+            "name": "James Kim",
+            "designation": "Engineering Lead at DataPro",
+            "src": "/images/user/testi-4.jpg"
+        },
+        {
+            "quote": "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
+            "name": "Lisa Thompson",
+            "designation": "VP of Technology at FutureNet",
+            "src": "/images/user/testi-5.jpg"
+        }
+    ],
+    "useCases":[
+        {
+            "id": 1,
+            "title": "Customer Support",
+            "description": "24/7 automated customer support with instant responses to common queries, reducing response time and improving customer satisfaction.",
+            "icon": "FaHeadset",
+            "color": "from-blue-300 to-cyan-600"
+          },
+          {
+            "id": 2,
+            "title": "E-commerce Assistant",
+            "description": "Personalized shopping experience with product recommendations, order tracking, and instant query resolution for better conversions.",
+            "icon": "FaShoppingCart",
+            "color": "from-purple-300 to-pink-600"
+          },
+          {
+            "id": 3,
+            "title": "Healthcare Support",
+            "description": "Preliminary medical assistance, appointment scheduling, and health information at your fingertips.",
+            "icon": "FaHospital",
+            "color": "from-emerald-300 to-teal-600"
+          },
+          {
+            "id": 4,
+            "title": "Education & E-learning",
+            "description": "Interactive learning experiences with instant doubt resolution and personalized study plans.",
+            "icon": "FaGraduationCap",
+            "color": "from-amber-300 to-orange-600"
+          },
+          {
+            "id": 5,
+            "title": "Banking & Finance",
+            "description": "Secure financial assistance, transaction history, and investment advice on demand.",
+            "icon": "FaPiggyBank",
+            "color": "from-indigo-300 to-violet-600"
+          }
+    ]
+}

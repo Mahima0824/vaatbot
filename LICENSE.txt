@@ -1,0 +1,43 @@
+=======================================
+Licensing Information – VaatBot AI Chatbot
+=======================================
+
+This template is licensed exclusively for use by the purchaser under the terms of the ThemeForest Regular or Extended License, depending on your selection at the time of purchase.
+
+---------------------------------------
+📄 Regular License
+---------------------------------------
+- You can use the Appliyo template for **one** personal or commercial project.
+- You may modify the template as needed for your project.
+- You may NOT redistribute, resell, or share the template or its modified versions.
+- You may NOT use the template in multiple end products under a single license.
+
+---------------------------------------
+💼 Extended License
+---------------------------------------
+- Allows usage of the template in one product that is sold to end users.
+- Redistribution as a stock, template, or UI kit is NOT allowed.
+
+For full details, please refer to the official Envato license terms:
+https://themeforest.net/licenses
+
+---------------------------------------
+📁 Resources & Credits Licensing
+---------------------------------------
+All external libraries and resources used in this template are either open-source or free for commercial use, including:
+
+- React (MIT License)
+- Tailwind CSS (MIT License)
+- Framer Motion (MIT License)
+- Swiper.js (MIT License)
+- Boxicons (react-icons/bi) 
+- FontAwesome Free (react-icons/fa)
+- Bootstrap Icons (react-icons/bs)
+- Feather Icons (react-icons/fi)
+- Material Icons (react-icons/md) 
+- Google Fonts - Nunito & Tourney (Open Font License)
+- Demo images (Replace with your own for production)
+
+---------------------------------------
+© 2025 Mantraksh Devs. All Rights Reserved.
+---------------------------------------

@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="author" content="Mantraksh Devs">
+  <meta name="description" content="VaatBot is an intelligent AI chatbot platform built with React and Tailwind CSS. Experience seamless conversations with our modern, responsive chatbot solution. Trusted by businesses and developers worldwide.">
+  <meta name="keywords" content="AI chatbot, React chatbot, Tailwind CSS, AI assistant, conversational AI, chatbot template, React Tailwind templates, VaatBot, Mantraksh Devs, AI conversation platform">
+  <title>VaatBot - Intelligent AI Chatbot with React & Tailwind CSS | Mantraksh Devs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="./css/bootstrap-icons.min.css" type="text/css">
+  <link rel="stylesheet" href="./css/app.css" type="text/css">
+</head>
+
+<body>
+
+  <!-- Hero Section start -->
+  <section class="hero-section position-relative overflow-hidden">
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          <div class="hero-content position-relative z-2">
+            <div class="hero-badge-wrapper mb-2">
+              <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span class="text-primary fw-semibold">🤖 AI-Powered Chatbot for Smarter Conversations & Support</span>
+              </div>
+            </div>
+            <h4 class="position-relative mb-2">
+              <span class="badge bg-primary fs-5 shadow-lg px-4 py-2">
+                <i class="bi bi-lightning-charge-fill me-2"></i>
+                Modern UI made easy with <span class="fw-bold text-warning ms-2">Tailwind 4</span>
+              </span>
+            </h4>
+            <h1 class="hero-title mb-4">
+              Intelligent AI Chatbot for
+              <span class="gradient-wrapper">
+                <span class="gradient-text">Seamless Conversations</span>
+                <span class="gradient-underline"></span>
+              </span>
+            </h1>
+            <p class="hero-description mb-4 mb-lg-5">Experience next-generation AI conversations with our advanced chatbot that understands context, learns from interactions, and provides instant, accurate responses.</p>
+            <div class="hero-cta-wrapper">
+              <div class="d-flex flex-wrap align-items-center gap-3">
+                <a href="#pages" class="btn btn-primary d-flex align-items-center gap-3 btn-lg hero-btn"><span>See Demos</span> <i class="bi bi-arrow-right"></i></a>
+                <a href="#" class="btn btn-outline-primary d-flex align-items-center gap-3 btn-lg hero-btn"><span>Download</span> <i class="bi bi-download"></i></a>
+              </div>
+              <div class="hero-shape-1"></div>
+              <div class="hero-shape-2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-visual position-relative">
+            <div class="hero-image-wrapper">
+              <img src="./images/chatbot.svg" alt="Job Search Illustration" class="hero-main-image">
+            </div>
+            <div class="hero-pattern"></div>
+            <div class="hero-dots"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg-shape"></div>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- Tabbed Interface start -->
+  <section class="section" id="pages">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <div class="position-relative">
+            <h2 class="mb-0 position-relative z-1">Explore Our Platform</h2>
+          </div>
+          <p class="text-muted mt-3">Preview our pages and access documentation</p>
+        </div>
+      </div>
+
+      <!-- Tab Navigation -->
+      <div class="row justify-content-center mb-5 sticky-top top-0 z-5 pt-2 body-bg">
+        <div class="col-12">
+          <ul class="nav nav-tabs nav-fill" id="platformTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="preview-tab" data-bs-toggle="tab" data-bs-target="#preview" type="button" role="tab" aria-controls="preview" aria-selected="true"> <i class="bi bi-eye me-2"></i>Preview</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="documentation-tab" data-bs-toggle="tab" data-bs-target="#documentation" type="button" role="tab" aria-controls="documentation" aria-selected="false"><i class="bi bi-book me-2"></i>Documentation</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- Tab Content -->
+      <div class="row position-relative">
+        <div class="col-md-12">
+          <div class="tab-content" id="platformTabsContent">
+            <!-- Preview Tab -->
+            <div class="tab-pane fade show active" id="preview" role="tabpanel" aria-labelledby="preview-tab">
+              <!-- Main Pages -->
+              <div class="row">
+                <div class="col-12 text-center mb-4">
+                  <div class="position-relative">
+                    <h3 class="mb-0 position-relative z-1">Our Pages</h3>
+                  </div>
+                  <p class="text-muted mt-3">Explore our Comprehensive AI Chatbot Platform</p>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-1.jpg" alt="Home Page" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Home Page 1</h4>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/home2" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-2.jpg" alt="Home Page 2" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Home Page 2</h4>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/home3" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-3.jpg" alt="THome Page 3" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Home Page 3</h4>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/home4" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-4.jpg" alt="Home Page 4" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Home Page 4</h4>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 text-center mb-4">
+                  <div class="position-relative">
+                    <h3 class="mb-0 position-relative z-1">Inner Pages</h3>
+                  </div>
+                  <p class="text-muted mt-3">Explore our Comprehensive AI Chatbot Platform</p>
+                </div>
+              </div>
+
+              <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/pricing" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-5.jpg" alt="Pricing Page" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Pricing Page</h4>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/blog" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-6.jpg" alt="Blog Page" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Blog Page</h4>
+                </div>
+              </div>
+
+              <!-- Auth Pages -->
+              <div class="row">
+                <div class="col-12 text-center mb-4">
+                  <div class="position-relative">
+                    <h3 class="mb-0 position-relative z-1">Auth Pages</h3>
+                  </div>
+                  <p class="text-muted mt-3">Explore our comprehensive chatbot platform</p>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/login" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-7.jpg" alt="Login Page" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Login Page</h4>
+                </div>
+              </div>
+
+              <!-- Other pages  -->
+              <div class="row">
+                <div class="col-12 text-center mb-4">
+                  <div class="position-relative">
+                    <h3 class="mb-0 position-relative z-1">Other Pages</h3>
+                  </div>
+                  <p class="text-muted mt-3">Explore our comprehensive chatbot platform</p>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-3 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/404" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-8.jpg" alt="404 Page" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Error Page</h4>
+                </div>
+                <div class="col-md-3 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/server-error" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-9.jpg" alt="Server Error Page" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Server Error Page</h4>
+                </div>
+                <div class="col-md-3 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/coming-soon" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-10.jpg" alt="coming-soon Page" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Coming Soon Page</h4>
+                </div>
+                <div class="col-md-3 mb-4">
+                  <div class="img-card">
+                    <div class="mb-3 d-flex gap-2 opacity-50">
+                      <i class="bi bi-circle-fill text-danger fs-12"></i>
+                      <i class="bi bi-circle-fill text-warning fs-12"></i>
+                      <i class="bi bi-circle-fill text-success fs-12"></i>
+                    </div>
+                    <a href="https://vaatbot.mantrakshdevs.com/under-maintenance" target="_blank" class="screenshot rounded">
+                      <img src="./images/screenshot/img-11.jpg" alt="Under Maintenance Page" class="img-fluid rounded">
+                    </a>
+                  </div>
+                  <h4 class="mt-4 text-center fs-22 mb-4">Under Maintenance Page</h4>
+                </div>
+              </div>
+            </div>
+
+            <!-- Documentation Tab -->
+            <div class="tab-pane fade" id="documentation" role="tabpanel" aria-labelledby="documentation-tab">
+              <!-- Menu Toggle Button -->
+              <button class="btn bg-primary sticky-top  text-white rounded-circle sidebar-toggle-btn d-lg-none shadow-lg d-flex align-items-center justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" style="top: 100px;">
+                <i class="bi bi-list fs-5"></i>
+              </button>
+              <div class="row">
+                <!-- Main Documentation Content -->
+                <!-- Desktop Sidebar -->
+                <div class="col-lg-3">
+                  <div class="sticky-top" style="top: 100px;">
+                    <div class="card d-none d-lg-block bg-gray-800/90 dark:bg-gray-800/90 shadow-sm border-0">
+                      <div class="card-body p-0">
+                        <!-- Desktop Menu Title -->
+                        <div class="bg-gray-700 border-bottom border-gray-600 p-3">
+                          <h5 class="mb-0 d-flex align-items-center gap-2"><i class="bi bi-list-ul text-primary"></i>Quick Links</h5>
+                        </div>
+                        <!-- Menu Items -->
+                          <ul class="list-unstyled mb-0 p-3">
+                          <li class="mb-2">
+                            <a href="#introduction" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-1-circle-fill text-primary"></i> <span>Introduction</span>
+                            </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#folder-structure" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-2-circle-fill text-primary"></i> <span>Folder Structure</span>
+                            </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#installation" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-3-circle-fill text-primary"></i> <span>Installation Guide</span>
+                            </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#dependencies" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-4-circle-fill text-primary"></i> <span>Package Dependencies</span>
+                            </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#customization" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-5-circle-fill text-primary"></i> <span>File Customization</span>
+                            </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#theming"  class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-6-circle-fill text-primary"></i> <span>Tailwind Configuration</span>
+                            </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#credits" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-7-circle-fill text-primary"></i> <span>Credits</span>
+                            </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#changelog" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-8-circle-fill text-primary"></i> <span>Changelog</span>
+                            </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#support" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light hover-bg-light">
+                              <i class="bi bi-9-circle-fill text-primary"></i> <span>Support</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Mobile Offcanvas Sidebar -->
+                  <div class="offcanvas offcanvas-end" id="sidebarMenu" tabindex="-1"
+                    aria-labelledby="sidebarMenuLabel">
+                    <div class="offcanvas-header bg-light border-bottom">
+                      <h5 class="offcanvas-title d-flex align-items-center gap-2 mb-0" id="sidebarMenuLabel">
+                        <i class="bi bi-list-ul text-primary"></i> Quick Links
+                      </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body p-0">
+                      <ul class="list-unstyled menu-items mb-0 p-3">
+                        <li class="mb-2">
+                          <a href="#introduction" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-1-circle-fill text-primary"></i> <span>Introduction</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#folder-structure" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-2-circle-fill text-primary"></i> <span>Folder Structure</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#installation" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-3-circle-fill text-primary"></i> <span>Installation Guide</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#dependencies" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-4-circle-fill text-primary"></i> <span>Package Dependencies</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#customization" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-5-circle-fill text-primary"></i> <span>File Customization</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#theming" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-6-circle-fill text-primary"></i> <span>Tailwind Configuration</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#credits" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-7-circle-fill text-primary"></i> <span>Credits</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#changelog" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-8-circle-fill text-primary"></i> <span>Changelog</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#support" class="d-flex align-items-center gap-2 p-2 text-decoration-none text-dark rounded bg-light bg-opacity-50 hover-bg-light" data-bs-dismiss="offcanvas">
+                            <i class="bi bi-9-circle-fill text-primary"></i> <span>Support</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <!-- Introduction -->
+                  <div id="introduction" class="card shadow-sm mb-4 ">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">1</div>
+                        <h3 class="mb-0">Introduction</h3>
+                      </div>
+                      <div class="bg-light rounded p-3 p-md-4">
+                        <p class="mb-0">VaatBot is a modern AI chatbot platform. Built with React.js and Tailwind CSS, it features beautiful UI and responsive design, ensuring a great experience for users.</p>
+                      </div>
+                      <div class="mt-4">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <div class="card h-100 w-100 border-0 bg-soft-primary-card">
+                              <div class="card-body text-center">
+                                <i class="bi bi-display-fill display-4 text-primary mb-3"></i>
+                                <h5 class="card-title">Many Hero Section Design</h5>
+                                <p class="text-muted small mb-0">Many Hero Section Design with different layouts</p>
+                              </div>
+                            </div>
+                          </div>  
+                          <div class="col-md-4">
+                            <div class="card h-100 w-100 border-0 bg-soft-primary-card">
+                              <div class="card-body text-center">
+                                <i class="bi bi-currency-dollar display-4 text-primary mb-3"></i>
+                                <h5 class="card-title">Pricing</h5>
+                                <p class="text-muted small mb-0">Detailed pricing and subscription options</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card h-100 w-100 border-0 bg-soft-primary-card">
+                              <div class="card-body text-center">
+                                <i class="bi bi-patch-check display-4 text-primary mb-3"></i>
+                                <h5 class="card-title">Blog</h5>
+                                <p class="text-muted small mb-0">Detailed blog and discussion listings</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Folder Structure -->
+                  <div id="folder-structure" class="card shadow-sm mb-4 ">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">2</div>
+                        <h3 class="mb-0">Folder Structure</h3>
+                      </div>
+                      <div class="bg-light rounded p-3 p-md-4">
+                        <pre class="doc-code"><code>main-file/
+├── documentation/
+├── public/
+│   ├── images/
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   ├── data/
+│   ├── hooks/
+│   ├── pages/
+│   ├── router/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── index.js
+│   └── main.jsx
+├── CHANGELOG.md
+├── LICENSE.txt
+├── README.md
+├── package.json
+├── package-lock.json
+├── tailwind.config.js
+└── vite.config.js</code></pre>
+                        <div class="mt-4">
+                          <h5 class="mb-3">Key Directories:</h5>
+                          <div class="row g-3">
+                            <div class="col-md-6">
+                              <div class="card h-100">
+                                <div class="card-body">
+                                  <h6 class="card-title mb-2"><i class="bi bi-folder-symlink me-2"></i>public/images/</h6>
+                                  <p class="text-muted small mb-0">Stores static images.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card h-100">
+                                <div class="card-body">
+                                  <h6 class="card-title mb-2"><i class="bi bi-puzzle me-2"></i>src/components/</h6>
+                                  <p class="text-muted small mb-0">Contains all reusable React components, organized by feature or type.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card h-100">
+                                <div class="card-body">
+                                  <h6 class="card-title mb-2"><i class="bi bi-database me-2"></i>src/data/</h6>
+                                  <p class="text-muted small mb-0">Stores mock data, data fetching logic, or other data-related utilities.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card h-100">
+                                <div class="card-body">
+                                  <h6 class="card-title mb-2"><i class="bi bi-layout-wtf me-2"></i>src/layout/</h6>
+                                  <p class="text-muted small mb-0">Contains main layout components (e.g., Navbar, Footer).</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card h-100">
+                                <div class="card-body">
+                                  <h6 class="card-title mb-2"><i class="bi bi-file-earmark-richtext me-2"></i>src/pages/</h6>
+                                  <p class="text-muted small mb-0">Contains top-level page components, each corresponding to a specific route or view.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="card h-100">
+                                <div class="card-body">
+                                  <h6 class="card-title mb-2"><i class="bi bi-signpost-split me-2"></i>src/router/</h6>
+                                  <p class="text-muted small mb-0">Defines application routes and navigation logic.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Installation Guide -->
+                  <div id="installation" class="card shadow-sm mb-4 ">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">3</div>
+                        <h3 class="mb-0">Installation Guide</h3>
+                      </div>
+                      <div class="bg-light rounded p-3 p-md-4">
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h6 class="card-title mb-3"><i class="bi bi-terminal me-2"></i>Install Dependencies</h6>
+                                <pre id="copy1" class="doc-code mb-0"><code>npm install</code></pre>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h6 class="card-title mb-3"><i class="bi bi-play-circle me-2"></i>Start Development Server</h6>
+                                <pre id="copy2" class="doc-code mb-0"><code>npm run dev</code></pre>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Package Dependencies -->
+                  <div id="dependencies" class="card shadow-sm mb-4 ">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">4</div>
+                        <h3 class="mb-0">Package Dependencies</h3>
+                      </div>
+                      <div class="bg-light rounded p-3 p-md-4">
+                        <p class="mb-4">Here are the key dependencies and their versions used in this project:</p>
+
+                        <div class="table-responsive">
+                          <table class="table table-hover mb-0">
+                            <thead class="table-light">
+                              <tr>
+                                <th>Package</th>
+                                <th>Version</th>
+                                <th>Description</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><code>@react-three/drei</code></td>
+                                <td><span class="badge bg-primary">^10.5.0</span></td>
+                                <td>Useful helpers for react-three-fiber</td>
+                              </tr>
+                              <tr>
+                                <td><code>@react-three/fiber</code></td>
+                                <td><span class="badge bg-primary">^9.2.0</span></td>
+                                <td>A React renderer for Three.js</td>
+                              </tr>
+                              <tr>
+                                <td><code>@tailwindcss/vite</code></td>
+                                <td><span class="badge bg-primary">^4.1.11</span></td>
+                                <td>Tailwind CSS plugin for Vite</td>
+                              </tr>
+                              <tr>
+                                <td><code>clsx</code></td>
+                                <td><span class="badge bg-primary">^2.1.1</span></td>
+                                <td>A tiny utility for constructing className strings conditionally</td>
+                              </tr>
+                              <tr>
+                                <td><code>motion</code></td>
+                                <td><span class="badge bg-primary">^12.23.0</span></td>
+                                <td>Animation library for the web</td>
+                              </tr>
+                              <tr>
+                                <td><code>react</code></td>
+                                <td><span class="badge bg-primary">^19.1.0</span></td>
+                                <td>Core React library for building user interfaces</td>
+                              </tr>
+                              <tr>
+                                <td><code>react-dom</code></td>
+                                <td><span class="badge bg-primary">^19.1.0</span></td>
+                                <td>React DOM rendering for web applications</td>
+                              </tr>
+                              <tr>
+                                <td><code>react-icons</code></td>
+                                <td><span class="badge bg-primary">^5.5.0</span></td>
+                                <td>SVG icons for React projects</td>
+                              </tr>
+                              <tr>
+                                <td><code>react-router-dom</code></td>
+                                <td><span class="badge bg-primary">^7.6.3</span></td>
+                                <td>Routing library for React applications</td>
+                              </tr>
+                              <tr>
+                                <td><code>swiper</code></td>
+                                <td><span class="badge bg-primary">^11.2.10</span></td>
+                                <td>Modern mobile touch slider</td>
+                              </tr>
+                              <tr>
+                                <td><code>tailwind-merge</code></td>
+                                <td><span class="badge bg-primary">^3.3.1</span></td>
+                                <td>Merge Tailwind CSS classes without style conflicts</td>
+                              </tr>
+                              <tr>
+                                <td><code>tailwindcss</code></td>
+                                <td><span class="badge bg-primary">^4.1.11</span></td>
+                                <td>A utility-first CSS framework</td>
+                              </tr>
+                              <tr>
+                                <td><code>three</code></td>
+                                <td><span class="badge bg-primary">^0.178.0</span></td>
+                                <td>3D library for the web</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- File Customization -->
+                  <div id="customization" class="card shadow-sm mb-4 ">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">5</div>
+                        <h3 class="mb-0">File Customization</h3>
+                      </div>
+                      <div class="bg-light rounded p-3 p-md-4">
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h6 class="card-title mb-3"><i class="bi bi-layers me-2"></i>Main Components</h6>
+                                <ul class="list-unstyled mb-0">
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/layout/</code> - Common layouts and navigation
+                                  </li>
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/components/home/</code> - Components for home page and discussions
+                                  </li>
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/components/ui/</code> - Reusable common UI components
+                                  </li>
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/pages/SignIn.jsx </code> - Components for authentication
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h6 class="card-title mb-3"><i class="bi bi-grid me-2"></i>Feature Pages</h6>
+                                <ul class="list-unstyled mb-0">
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/pages/Home.jsx</code> - Default home page with a clean, modern layout featuring a hero section.
+                                  </li>
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/pages/Home2.jsx</code> - Alternative layout with a geometric hero section, followed by all standard sections in a modern, visually appealing design.
+                                  </li>
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/pages/Home3.jsx</code> - Third layout variant with a custom hero section (HeroSection3) and the same comprehensive sections as other home pages.
+                                  </li>
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/pages/Home4.jsx</code> - Fourth layout featuring HeroSection4 with a unique design, maintaining all standard sections for consistency.
+                                  </li>
+                                  <li class="mb-2">
+                                    <code class="bg-light px-2 py-1 rounded">src/pages/SignIn.jsx</code> - Sign In page
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Color & Font Customization -->
+                  <div id="theming" class="card shadow-sm mb-4">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">6</div>
+                        <h3 class="mb-0">Color & Font Customization (Tailwind CSS)</h3>
+                      </div>
+
+                      <!-- Main Customization Cards -->
+                      <div class="row g-4">
+                        <!-- Colors Card -->
+                        <div class="col-lg-6">
+                          <div class="card h-100 border-0 bg-gradient-light">
+                            <div class="card-body p-3 p-md-4">
+                              <div class="d-flex align-items-center gap-3 mb-4">
+                                <div class="icon-wrapper bg-primary bg-opacity-10 rounded-circle p-3">
+                                  <i class="bi bi-palette-fill text-primary fs-4"></i>
+                                </div>
+                                <h5 class="card-title mb-0">Color Customization</h5>
+                              </div>
+                              <p class="text-muted mb-4">Theme colors are defined in
+                                <code>src/index.css</code>.
+                              </p>                              <div>
+                                <h6 class="small fw-bold mb-2">Example from <code>src/index.css</code>:</h6>
+                                <pre class="doc-code mb-2"><code>/* src/index.css */
+@theme {
+  /* Base Colors */
+  --color-surface: #040D12;
+  --color-primary: #5f5af7;
+  --color-accent: #a594fd;
+
+  --default-transition: "cubic-bezier(.405, 0, .025, 1)";
+
+  /* Additional Colors */
+  --color-muted: #94a3b8;
+  /* For muted/disabled text */
+  --color-border: #2d3748;
+  /* For borders */
+  --color-muted-foreground: #a1a1aa;
+
+  /* Shadows */
+  --shadow-xl: 0 20px 40px -10px rgba(255, 255, 255, 0.25);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  --gradient-accent: linear-gradient(135deg, var(--color-accent), var(--color-primary));
+}</code></pre>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Fonts Card -->
+                        <div class="col-lg-6">
+                          <div class="card h-100 border-0 bg-gradient-light">
+                            <div class="card-body p-3 p-md-4">
+                              <div class="d-flex align-items-center gap-3 mb-4">
+                                <div class="icon-wrapper bg-primary bg-opacity-10 rounded-circle p-3">
+                                  <i class="bi bi-type text-primary fs-4"></i>
+                                </div>
+                                <h5 class="card-title mb-0">Font Customization</h5>
+                              </div>
+                              <p class="text-muted mb-4">The application uses two main fonts from Google Fonts: "Nunito" for body text and "Tourney" for titles. These are imported and configured in <code>src/index.css</code>.</p>
+                              <div class="mb-3">
+                                <h6 class="small fw-bold mb-2">1. Font Imports & Application
+                                  (<code>src/index.css</code>)</h6>
+                                <pre class="doc-code mb-0"><code>/* src/index.css */
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Apply fonts globally */
+@layer base {
+  body {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-title {
+    font-family: 'Tourney', sans-serif;
+    font-weight: 700;
+  }
+}</code></pre>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Credits -->
+                  <div id="credits" class="card shadow-sm mb-4 ">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">7</div>
+                        <h3 class="mb-0">Credits</h3>
+                      </div>
+                      <div class="bg-light rounded p-3 p-md-4">
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h6 class="card-title mb-3"><i class="bi bi-image me-2"></i>Resources</h6>
+                                <ul class="list-unstyled mb-0">
+                                  <li class="mb-2">
+                                    <a href="https://unsplash.com" target="_blank" class="text-decoration-none text-primary fw-bold">Unsplash</a> - Images
+                                  </li>
+                                  <li class="mb-2">
+                                    <a href="https://www.freepik.com" target="_blank" class="text-decoration-none text-primary fw-bold">Freepik</a> - Graphics
+                                  </li>
+                                  <li class="mb-2">
+                                    <a href="https://react-icons.github.io/react-icons" target="_blank" class="text-decoration-none text-primary fw-bold">React Icons</a> - Icons
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h6 class="card-title mb-3"><i class="bi bi-code-square me-2"></i>Frameworks</h6>
+                                <ul class="list-unstyled mb-0">
+                                  <li class="mb-2">
+                                    <a href="https://tailwindcss.com/" target="_blank" class="text-decoration-none text-primary fw-bold">Tailwind CSS</a> - UI Framework
+                                  </li>
+                                  <li class="mb-2">
+                                    <a href="https://fonts.google.com/specimen/Figtree" target="_blank" class="text-decoration-none text-primary fw-bold">Google Fonts</a> - Typography
+                                  </li>
+                                  <li class="mb-2">
+                                    <a href="https://reactjs.org" target="_blank" class="text-decoration-none text-primary fw-bold">React.js</a> - Frontend Framework
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Changelog -->
+                  <div id="changelog" class="card shadow-sm mb-4">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">8</div>
+                        <h3 class="mb-0">Changelog</h3>
+                      </div>
+                      <div class="bg-light rounded p-3 p-md-4">
+                        <div class="table-responsive">
+                          <table class="table table-hover mb-0">
+                            <thead class="table-light">
+                              <tr>
+                                <th>Version</th>
+                                <th>Date</th>
+                                <th>Changes</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><span class="badge bg-primary">1.0.0</span></td>
+                                <td>2025-06-14</td>
+                                <td>
+                                  <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>Initial release of VaatBot platform</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>4 unique hero sections with distinct designs</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>Modern UI with Tailwind CSS integration</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>Responsive layout that works on all devices</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>Custom font integration (Nunito & Tourney)</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>Interactive components with smooth animations</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>Comprehensive documentation</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>SEO-optimized structure</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>Modern authentication flows</li>
+                                    <li class="mb-2"><i class="bi bi-plus-circle-fill text-primary me-2"></i>Performance optimized build</li>
+                                  </ul>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Support -->
+                  <div id="support" class="card shadow-sm mb-0 ">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="doc-number">9</div>
+                        <h3 class="mb-0">Support</h3>
+                      </div>
+                      <div class="bg-light rounded p-5 text-center">
+                        <div class="support-icon-wrapper mb-4">
+                          <i class="bi bi-headset display-1 text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Need Help?</h4>
+                        <p class="mb-4">We offer 6 months of support for any questions or issues you may encounter.</p>
+                        <div class="d-flex justify-content-center gap-3">
+                          <a href="mailto:mantrakshdevs@gmail.com" class="btn btn-primary d-flex align-items-center gap-2"> <i class="bi bi-envelope-fill"></i>Contact Support</a>
+                          <a href="https://mantrakshdevs.com" target="_blank" class="btn btn-primary d-flex align-items-center gap-2"><i class="bi bi-globe"></i> Visit Website</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tabbed Interface end -->
+
+  <!-- Core Features start -->
+  <section class="section bg-light position-relative overflow-hidden">
+    <div class="container position-relative z-1">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <div class="position-relative">
+            <div class="hero-badge">
+              <span class="badge-dot"></span>
+              <span class="text-primary fw-semibold">Features</span>
+            </div>
+            <h2 class="section-title fw-bold mb-3">Our Core Features</h2>
+            <p class="text-muted w-md-75 mx-auto">Discover the powerful technologies and tools that make our platform exceptional</p>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto ">
+                <img src="./images/logos/react.svg" alt="React" class="feature-icon img-fluid">
+              </div>
+              <h5 class="feature-title fw-semibold mb-0">React Js</h5>
+              <p class="text-muted small mt-2 mb-0">Dynamic UI Library</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/tailwind.svg" alt="Bootstrap" class="feature-icon  img-fluid" height="60">
+              </div>
+              <h5 class="feature-title mb-0">Tailwind CSS</h5>
+              <p class="text-muted small mt-2 mb-0">Utility First Framework</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 d-flex bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/Framer.svg" alt="Framer" class="feature-icon  img-fluid" height="40">
+              </div>
+              <h5 class="feature-title mb-0">Framer</h5>
+              <p class="text-muted small mt-2 mb-0">Smooth Animations</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 d-flex bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/threejs.svg" alt="Framer" class="feature-icon  img-fluid" height="40">
+              </div>
+              <h5 class="feature-title mb-0">ThreeJs</h5>
+              <p class="text-muted small mt-2 mb-0">3D Animation Library</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/html.svg" alt="HTML 5" class="feature-icon  img-fluid" height="60">
+              </div>
+              <h5 class="feature-title mb-0">HTML 5</h5>
+              <p class="text-muted small mt-2 mb-0">Web Structure</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/css.svg" alt="CSS 3" class="feature-icon  img-fluid" height="60">
+              </div>
+              <h5 class="feature-title mb-0">CSS 3</h5>
+              <p class="text-muted small mt-2 mb-0">Modern Styling</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/responsive.svg" alt="Responsive" class="feature-icon  img-fluid" height="60">
+              </div>
+              <h5 class="feature-title mb-0">Responsive</h5>
+              <p class="text-muted small mt-2 mb-0">Mobile Friendly</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/google-fonts.svg" alt="Google Fonts" class="feature-icon  img-fluid"
+                  height="60">
+              </div>
+              <h5 class="feature-title mb-0">Google Fonts</h5>
+              <p class="text-muted small mt-2 mb-0">Web Typography</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/icons.svg" alt="Icons" class="feature-icon  img-fluid" height="60">
+              </div>
+              <h5 class="feature-title mb-0">Icons</h5>
+              <p class="text-muted small mt-2 mb-0">Vector Graphics</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/design.svg" alt="Modern Design" class="feature-icon  img-fluid" height="60">
+              </div>
+              <h5 class="feature-title mb-0">Modern Design</h5>
+              <p class="text-muted small mt-2 mb-0">Clean Aesthetics</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/customizable.svg" alt="Easy Customizable" class="feature-icon  img-fluid"
+                  height="60">
+              </div>
+              <h5 class="feature-title mb-0">Easy Customizable</h5>
+              <p class="text-muted small mt-2 mb-0">Flexible Components</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/clean-code.svg" alt="Clean Code" class="feature-icon  img-fluid" height="60">
+              </div>
+              <h5 class="feature-title mb-0">Clean Code</h5>
+              <p class="text-muted small mt-2 mb-0">Optimized Structure</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/documented.svg" alt="Well Documented" class="feature-icon  img-fluid"
+                  height="60">
+              </div>
+              <h5 class="feature-title mb-0">Well Documented</h5>
+              <p class="text-muted small mt-2 mb-0">Clear Guides</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0 bg-white bg-opacity-75 backdrop-blur rounded-4 shadow-sm hover-shadow-lg transition-all">
+            <div class="card-body p-4 text-center">
+              <div class="feature-icon-wrapper mb-3 bg-primary bg-opacity-10 rounded-circle p-3 mx-auto">
+                <img src="./images/logos/support.svg" alt="24/7 Support" class="feature-icon  img-fluid" height="60">
+              </div>
+              <h5 class="feature-title mb-0">24/7 Support</h5>
+              <p class="text-muted small mt-2 mb-0">Always Available</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="shape-bg"></div> -->
+  </section>
+
+  <!-- Core Features end -->
+  <div class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h1 class="mb-4">Join <span class="text-primary">VaatBot</span> today & start your journey!</h1>
+          <a href="#" class="btn btn-lg btn-primary">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="py-4 border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="text-muted mb-0">Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            <a href="https://mantrakshdevs.com" target="_blank">Mantraksh Devs</a>. All Rights Reserved. Crafted with <span class="text-danger">❤</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Active link highlighting
+    const sections = document.querySelectorAll('.card[id]');
+    const navLinks = document.querySelectorAll('.list-unstyled a');
+
+    function setActiveLink() {
+      let current = '';
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (window.pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').slice(1) === current) {
+          link.classList.add('active');
+        }
+      });
+    }
+    window.addEventListener('scroll', setActiveLink);
+    window.addEventListener('load', setActiveLink);
+
+    // Enhanced smooth scrolling for documentation links
+    document.querySelectorAll('.menu-items a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const headerOffset = 120;
+          const elementPosition = target.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Responsive table handling
+    function handleResponsiveTables() {
+      const tables = document.querySelectorAll('.table-responsive');
+
+      tables.forEach(table => {
+        const wrapper = table.parentElement;
+        if (window.innerWidth < 768) {
+          wrapper.classList.add('px-0');
+        } else {
+          wrapper.classList.remove('px-0');
+        }
+      });
+    }
+
+    window.addEventListener('resize', handleResponsiveTables);
+    window.addEventListener('load', handleResponsiveTables);
+
+    // Enhanced copy code functionality
+    document.querySelectorAll('.doc-code').forEach(block => {
+      const button = document.createElement('button');
+      button.className = 'copy-btn';
+      button.innerHTML = '<i class="bi bi-clipboard"></i>';
+      button.setAttribute('title', 'Copy to clipboard');
+
+      block.appendChild(button);
+
+      button.addEventListener('click', async () => {
+        const code = block.querySelector('code').textContent;
+        try {
+          await navigator.clipboard.writeText(code);
+
+          // Update button state
+          button.classList.add('copied');
+          button.innerHTML = '<i class="bi bi-check"></i>';
+          button.setAttribute('title', 'Copied!');
+
+          // Reset button after 2 seconds
+          setTimeout(() => {
+            button.classList.remove('copied');
+            button.innerHTML = '<i class="bi bi-clipboard"></i>';
+            button.setAttribute('title', 'Copy to clipboard');
+          }, 2000);
+        } catch (err) {
+          button.innerHTML = '<i class="bi bi-x"></i>';
+          button.setAttribute('title', 'Failed to copy');
+
+          setTimeout(() => {
+            button.innerHTML = '<i class="bi bi-clipboard"></i>';
+            button.setAttribute('title', 'Copy to clipboard');
+          }, 2000);
+        }
+      });
+    });
+
+    // Enhanced menu handling
+    const sidebarMenu = document.getElementById('sidebarMenu');
+    const backdrop = document.querySelector('.offcanvas-backdrop');
+
+    // Close menu and remove backdrop when clicking menu items
+    document.querySelectorAll('#sidebarMenu a[data-bs-dismiss="offcanvas"]').forEach(link => {
+      link.addEventListener('click', () => {
+        const offcanvas = bootstrap.Offcanvas.getInstance(sidebarMenu);
+        if (offcanvas) {
+          offcanvas.hide();
+          // Remove backdrop manually
+          if (backdrop) {
+            backdrop.remove();
+          }
+          document.body.classList.remove('offcanvas-open');
+        }
+      });
+    });
+
+    // Handle backdrop when offcanvas is hidden
+    sidebarMenu.addEventListener('hidden.bs.offcanvas', () => {
+      if (backdrop) {
+        backdrop.remove();
+      }
+      document.body.classList.remove('offcanvas-open');
+    });
+
+    // Documentation section specific enhancements
+    function initDocumentationSection() {
+      // Add scroll spy for documentation
+      const docSection = document.querySelector('.documentation-section');
+      if (docSection) {
+        // Ensure proper spacing for mobile
+        if (window.innerWidth < 992) {
+          docSection.style.paddingTop = '80px';
+        }
+      }
+    }
+
+    // Initialize documentation section
+    initDocumentationSection();
+
+    // Re-initialize on window resize
+    window.addEventListener('resize', initDocumentationSection);
+  </script>
+</body>
+</html>
