@@ -142,7 +142,7 @@ const HeroSection3 = () => {
           {/* AI Avatar */}
           <motion.div variants={item} className="relative xl:absolute xl:-right-[8%] xl:top-1/2 xl:-translate-y-1/2 z-10 flex justify-center xl:justify-end">
             <div className="relative">
-              <motion.img src="/images/avatar-ai.png" alt="AI" className="w-64 sm:w-80 md:w-96 object-contain drop-shadow-2xl" />
+              <motion.img src="/images/chat2.png" alt="AI" className="w-64 sm:w-80 md:w-96 object-contain drop-shadow-2xl" />
               <motion.div className="absolute -top-12 sm:-top-16 right-1/2 bg-primary/20 backdrop-blur-sm rounded-2xl md:p-4 p-2 border border-primary/30 shadow-lg" initial={{ scale: 0, opacity: 0, y: 20 }} animate={{ scale: 1, opacity: 1, y: 0, transition: { delay: 1.2, duration: 0.5 } }}>
                 <div className="text-white md:text-sm text-xs">How can I help you today?</div>
                 <div className="absolute -bottom-2 right-6 sm:w-4 sm:h-4 w-2 h-2 bg-primary/20 backdrop-blur-sm border-r border-b border-primary/30 transform rotate-45" />
