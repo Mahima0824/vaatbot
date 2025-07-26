@@ -1,4 +1,4 @@
-import { CardSpotlight } from "../ui/card-spotlight";
+import { CardSpotlight } from "../ui/Card-spotlight";
 import { FaBolt, FaBrain, FaGlobe, FaRegLightbulb } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import PrimaryButton from "../ui/Button";

@@ -4,7 +4,7 @@ import { PrimaryButton } from '../components/ui/Button';
 import BoldCopy from '../components/ui/bold-copy';
 import { FaGem } from 'react-icons/fa';
 import { MdRefresh, MdShield } from 'react-icons/md';
-import { CardSpotlight } from '../components/ui/card-spotlight';
+import { CardSpotlight } from '../components/ui/Card-spotlight';
 import { Spotlight } from '../components/ui/spotlight-new';
 import data from '../data/mockdata.json';
 
