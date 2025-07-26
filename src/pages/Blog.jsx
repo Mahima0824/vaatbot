@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CardSpotlight } from '../components/ui/card-spotlight';
+import { CardSpotlight } from '../components/ui/Card-spotlight';
 import { Spotlight } from '../components/ui/spotlight-new';
 import Section from '../layout/Section';
 import { FiArrowRight, FiClock, FiTag, FiSearch } from 'react-icons/fi';
